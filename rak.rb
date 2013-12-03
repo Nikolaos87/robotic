@@ -1,5 +1,6 @@
 require 'capybara/dsl'
 require 'spreadsheet'
+require 'open-uri'
 
 Capybara.run_server = false
 Capybara.default_driver = :selenium
